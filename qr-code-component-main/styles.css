@@ -24,7 +24,6 @@ body, p {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 375px; /* Mobile layout width */
-    margin: 0 auto;
     position: absolute;
     top: 50%;
     left: 50%;
