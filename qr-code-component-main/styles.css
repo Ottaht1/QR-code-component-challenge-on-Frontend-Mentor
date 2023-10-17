@@ -1,0 +1,62 @@
+body, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: hsl(212, 45%, 89%)
+  }
+  
+  .attribution {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  .qr-code-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 375px; /* Mobile layout width */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+  }
+  
+  .qr-code-container img {
+    max-width: 95%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .qr-code-container p {
+    margin-top: 15px;
+  }
+
+  
+  .qr-code-container .skills-p {
+    font-weight: 700;
+  }
+
+  .qr-code-container .scan-p {
+    color: hsl(220, 15%, 55%);
+  }
+  
+  /* Media query for screens wider than 375px (desktop) */
+  @media (min-width: 376px) {
+    .qr-code-container {
+      max-width: 1440px; /* Desktop layout width */
+      margin: 0 auto;
+    }
+  }
+  
+  
